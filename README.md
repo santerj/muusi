@@ -26,7 +26,7 @@ tällä kirjastolla tehdään ohjelmallisesti hakuja muusikoiden.netin Torille. 
 
 1. navigoi sivulle https://muusikoiden.net/tori/haku.php
 2. räätälöi kälissä itsellesi mieleinen haku (mutta älä käytä osastona omaa valintaa).
-3. tee haku ja kopioi url taltee  selaimen osoitepalkista
+3. tee haku ja kopioi url talteen selaimen osoitepalkista
 4. tee haku `muusi`lla:
     ```
     url = "https://muusikoiden.net/tori/haku.php?keyword=earthquaker+devices&category=56&type=sell"
