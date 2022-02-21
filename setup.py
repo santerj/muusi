@@ -6,6 +6,9 @@ with open('README.md', 'r', encoding='utf8') as f:
 setup(
     name='muusi',
     version='0.0.1',
+    description='client library for a certain musician website',
+    url='https://github.com/santerj/muusi',
+    author='santerj',
     packages=find_packages(),
     install_requires=[
         "beautifulsoup4==4.10.0",
