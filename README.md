@@ -13,7 +13,7 @@ $ pip install git+https://github.com/santerj/muusi.git
 ### import `muusi` in your project
 
 ```
-from muusi.search import Search
+from muusi import Search
 
 s = Search(url=my_search_url)
 listings = s.result
