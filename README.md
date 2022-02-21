@@ -46,7 +46,7 @@ tällä kirjastolla tehdään ohjelmallisesti hakuja muusikoiden.netin Torille. 
 | text      | _String_        | Body text. UNIX newlines                 |
 | category  | _String_        |                                          |
 | location  | _String_        |                                          |
-| price     | _String_        | Has trailing space and currency sign (€) |
+| price     | _String_        | _Optional_ Trailing currency sign (€)    |
 | images    | _Array[String]_ | Array of image URLs                      |
 | created   | _String_        | DD.MM.YYYY                               |
 | expires   | _String_        | DD.MM.YYYY                               |
