@@ -16,6 +16,7 @@ $ pip install git+https://github.com/santerj/muusi.git
 from muusi.search import Search
 
 s = Search(url=my_search_url)
+listings = s.result
 ```
 
 ## whats `muusi`
@@ -31,7 +32,7 @@ tällä kirjastolla tehdään ohjelmallisesti hakuja muusikoiden.netin Torille. 
     ```
     url = "https://muusikoiden.net/tori/haku.php?keyword=earthquaker+devices&category=56&type=sell"
     s = Search(url=url)
-    pprint(json.dumps(s))  # view listings in json format
+    pprint(json.dumps(s.result))  # view listings in json format
     ```
 5. `muusi` palauttaa hakutulokset muodossa `list[dict]`. alla ilmoitus-objektin referenssitaulukko.
 
