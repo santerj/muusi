@@ -6,7 +6,6 @@ with open('README.md', 'r', encoding='utf8') as f:
 setup(
     name='muusi',
     version='0.0.1',
-    packages=['muusi'],
     install_requires=[
         "beautifulsoup4==4.10.0",
         "requests==2.27.1"
