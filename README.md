@@ -2,6 +2,9 @@
 
 client library for a certain musician website
 
+[!WARNING]
+the library has been broken since the release of v4.0 of the target website on 2024-01-03. will try to fix eventually...
+
 ## getting started
 
 ### install `muusi`
